@@ -7,17 +7,17 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
-    "@tailwindcss/forms": "^0.5.7",
-    "@vercel/postgres": "^0.8.0",
-    "autoprefixer": "10.4.19",
+    "@tailwindcss/forms": "^0.5.11",
+    "@vercel/postgres": "^0.10.0",
+    "autoprefixer": "10.5.0",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
-    "next": "15.0.0-canary.56",
-    "next-auth": "5.0.0-beta.19",
-    "postcss": "8.4.38",
-    "react": "19.0.0-rc-f38c22b244-20240704",
-    "react-dom": "19.0.0-rc-f38c22b244-20240704",
-    "tailwindcss": "3.4.4",
+    "next": "15.5.18",
+    "next-auth": "5.0.0-beta.31",
+    "postcss": "8.5.15",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tailwindcss": "3.4.19",
     "typescript": "5.5.2",
     "use-debounce": "^10.0.1",
     "zod": "^3.23.8"
@@ -25,11 +25,24 @@
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/node": "20.14.8",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0"
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
   },
   "engines": {
     "node": ">=20.12.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "cross-spawn": ">=7.0.5",
+      "picomatch": ">=2.3.2",
+      "nanoid": ">=3.3.8",
+      "yaml": ">=2.8.3",
+      "postcss": ">=8.5.15",
+      "cookie": ">=0.7.0",
+      "@mapbox/node-pre-gyp>tar": ">=7.5.15",
+      "sucrase>glob": ">=10.5.0",
+      "minimatch": ">=9.0.9",
+      "brace-expansion": ">=2.0.3"
+    }
   }
 }
-
