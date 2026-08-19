@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/fayez/Developer/nextjs-dashboard/app/layout":["static/media/a50f9a2c50b5a675-s.p.woff2","static/media/3e5cf33211ef6d1b-s.p.woff2","static/media/e4af272ccee01ff0-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
